@@ -4,7 +4,7 @@
 
 int main()
 {
-	int hour1, hour2, minute1, minute2, result = 0;
+	int hour1, hour2, minute1, minute2, result = 10;
 	scanf_s("%d", &hour1); scanf_s("%d", &minute1);
 	scanf_s("%d", &hour2); scanf_s("%d", &minute2);
 	while ((hour1 != hour2) || (minute1 != minute2))
